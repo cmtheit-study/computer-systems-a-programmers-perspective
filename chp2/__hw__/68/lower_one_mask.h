@@ -1,0 +1,12 @@
+//
+// Created by cmtheit on 23-7-10.
+//
+
+#ifndef COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_LOWER_ONE_MASK_H
+#define COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_LOWER_ONE_MASK_H
+
+int lower_one_mask(int n) {
+    return (~0u) >> (sizeof(int) * 8 - n);
+}
+
+#endif //COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_LOWER_ONE_MASK_H

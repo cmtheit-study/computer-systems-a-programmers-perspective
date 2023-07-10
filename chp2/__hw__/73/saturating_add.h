@@ -1,0 +1,12 @@
+//
+// Created by cmtheit on 23-7-10.
+//
+
+#ifndef COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_SATURATING_ADD_H
+#define COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_SATURATING_ADD_H
+#include <limits.h>
+
+int saturating_add(int x, int y) {
+}
+
+#endif //COMPUTER_SYSTEMS_A_PROGRAMMERS_PERSPECTIVE_SATURATING_ADD_H

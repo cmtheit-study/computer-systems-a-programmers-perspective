@@ -1,0 +1,1 @@
+cat `find . | grep '\.[ch]$'` | wc -l
