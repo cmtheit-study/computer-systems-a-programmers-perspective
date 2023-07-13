@@ -1,1 +1,1 @@
-cat `find . | grep '\.[ch]$'` | wc -l
+cat `git ls-tree --full-tree --name-only -r HEAD | grep '\.[chs]$'` | wc -l
